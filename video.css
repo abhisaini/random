@@ -1,0 +1,207 @@
++/*!
++Styles for full screen background video demo
++*/
++/* =============================================================================
++  RESETS
++============================================================================= */
+html,
+body,
+div,
+h1,
+p,
+a,
+video {
+    margin: 0;
+    padding: 0;
+  }
+
+/* ============================================================================
++  HTML, BODY
++============================================================================= */
+html,
+body {
+    height: 100%;
+  }
+
+body {
+    font-size: 16px;
+    font-family: "Oxygen", sans-serif;
+    line-height: 1.5;
+  }
+
+/* =============================================================================
++  CONTENT
++============================================================================= */
+.content {
+    position: relative;
+    top: 30%;
+    z-index: 4;
+    margin: 0 auto;
+    max-width: 720px;
+    text-align: center;
+  font-family: 'Baloo Bhaina', cursive;
+  }
+
+.heading {
+    margin-bottom: 24px;
+    color: #272727;
+    font-size: 44px;
+  }
+
+.teaser {
+    margin-bottom: 24px;
+    color: #595959;
+    font-size: 22px;
+  }
+
+.cta {
+    display: inline-block;
+  border-top-right-radius: 10px; 
+border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+    margin: 0;
+    padding: 12px 48px;
+    color: #ff3c64;
+    font-size: 22px;
+    text-decoration: none;
+    border: solid 4px #ff3c64;
+  }
+cta:hover {
+  background-color: #ff3c64;
+  display: inline-block;
+  margin: 0;
+  padding: 12px 48px;
+  color: white;
+  font-size: 22px;
+  text-decoration: none;
+  border: solid 4px #ff3c64;
+}
+.nav-oop{
+  
+  position: relative;
+  top: 60%;
+  height:10vh;
+  background-color: #F8F6F6;
+  z-index: 2;
+  margin: 0px;
+  min-width: 100vw;
+}
+
+.nav-oop li{
+  margin-top:2vh;
+  height: 6vh;
+  font-size: 3vh;
+  display: inline-block; width:24vw;
+  text-align: center;
+}
+.nav
+.nav-fixed{
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
+
+
+  
+
+.about{
+  position: relative;
+  top: 60%;
+  min-height: 500px;
+  margin-top: 0;
+
+  z-index:2;
+  background-color:  #F8F6F6;
+  ;
+  
+}
+.family{
+  position: relative;
+  top: 60%;
+  height: 400px;
+  margin-top: 0;
+
+  z-index:2;
+  background-color: #F8F6F6;
+  opacity:0.6;
+
+}
+.line{
+width:300px;
+}
+
+
+
+.aboutimg
+{
+  position: relative;
+  top: 60%;
+  height: 400px;
+  margin-top: 0;
+  background-image: url('http://www.wallpapersworldonline.com/wp-content/uploads/2014/01/hd-ocean-wallpapers-1621.jpg');
+  z-index: 2;
+  background-size: cover;
+  
+  
+}
+
+
+.abouthead{
+  font-size: 70px;
+  color: white;
+  font-family: 'Baloo Bhaina', cursive;
+  position: relative;
+  top:40%;
+  text-align: center;
+}
+
+.aboutexp
+{
+  height:300px;
+  max-width: 600px;
+  width:100%;
+  display: inline-block;
+  position: absolute;
+  border-color: red;
+color: grey;
+  font-size: 25px;
+  top:75px;
+float: right;
+  right:450px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =============================================================================
++  VIDEO
++============================================================================= */
+.video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
